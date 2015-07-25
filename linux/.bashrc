@@ -1,0 +1,15 @@
+alias ls='ls -F --show-control-chars --color'
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+alias grep='grep --color'
+alias fgrep='fgrep --color'
+alias egrep='egrep --color'
+
+alias oldrm='rm -i ./.*~ ./*~ ./core'
+alias texrm='rm -i *.aux;rm -i *.log;rm -i *~;rm -i *.dvi'
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+alias eng='LANG=C LANGUAGE=C LC_ALL=C'
