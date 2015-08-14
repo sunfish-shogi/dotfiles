@@ -21,6 +21,12 @@ au BufNewFile,BufRead *.c set nowrap tabstop=2 shiftwidth=2 et
 au BufNewFile,BufRead *.cpp set nowrap tabstop=2 shiftwidth=2 et
 au BufNewFile,BufRead *.h set nowrap tabstop=2 shiftwidth=2 et
 au BufNewFile,BufRead *.hpp set nowrap tabstop=2 shiftwidth=2 et
+au BufNewFile,BufRead *.xml set nowrap tabstop=4 shiftwidth=4 et
+au BufNewFile,BufRead *.html set nowrap tabstop=4 shiftwidth=4 et
+au BufNewFile,BufRead *.css set nowrap tabstop=4 shiftwidth=4 et
+au BufNewFile,BufRead *.plist set nowrap tabstop=4 shiftwidth=4 et
+au BufNewFile,BufRead *.java set nowrap tabstop=4 shiftwidth=4 et
+au BufNewFile,BufRead *.gyp set nowrap tabstop=2 shiftwidth=2 et
 
 " Vundle
 " git clone http://github.com/gmarik/vundle.git
@@ -32,6 +38,8 @@ Bundle 'gmarik/vundle'
 Bundle 'The-NERD-tree'
 Bundle 'The-NERD-Commenter'
 Bundle 'Syntastic'
+Bundle 'basyura/jslint.vim'
+Bundle "wookiehangover/jshint.vim"
 Plugin 'vim-jp/vim-go-extra'
 Plugin 'fatih/vim-go'
 filetype plugin indent on
@@ -41,6 +49,18 @@ let g:syntastic_check_on_open=0
 let g:syntastic_check_on_wq=0
 let g:syntastic_c_check_header = 1
 let g:syntastic_cpp_check_header = 1
+let g:syntastic_java_javac_classpath = "/usr/local/Cellar/android-sdk/24/platforms/android-17/android.jar"
+
+" jslint
+let $JS_CMD='node'
+"jslint.vimfunction! s:  autocmd BufLeave
+"&lt;buffer&gt; call jslint#clear()  autocmd BufWritePost &lt;buffer&gt; call
+"jslint#check()  autocmd CursorMoved  &lt;buffer&gt; call
+"jslint#message()endfunctionautocmd FileType javascript call
+"s:javascript_filetype_settings()
+
+" jshint
+let JSHintUpdateWriteOnly=1
 
 " vim-go-extra
 autocmd FileType go autocmd BufWritePre <buffer> Fmt
