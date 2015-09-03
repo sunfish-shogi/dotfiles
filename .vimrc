@@ -27,6 +27,7 @@ au BufNewFile,BufRead *.css set nowrap tabstop=4 shiftwidth=4 et
 au BufNewFile,BufRead *.plist set nowrap tabstop=4 shiftwidth=4 et
 au BufNewFile,BufRead *.java set nowrap tabstop=4 shiftwidth=4 et
 au BufNewFile,BufRead *.gyp set nowrap tabstop=2 shiftwidth=2 et
+au BufNewFile,BufRead *.py set nowrap tabstop=2 shiftwidth=2 et
 
 " Vundle
 " git clone http://github.com/gmarik/vundle.git
