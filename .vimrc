@@ -19,6 +19,7 @@ au BufNewFile,BufRead *.js set nowrap tabstop=2 shiftwidth=2 et
 au BufNewFile,BufRead *.json set nowrap tabstop=2 shiftwidth=2 et
 au BufNewFile,BufRead *.c set nowrap tabstop=2 shiftwidth=2 et
 au BufNewFile,BufRead *.cpp set nowrap tabstop=2 shiftwidth=2 et
+au BufNewFile,BufRead *.cc set nowrap tabstop=2 shiftwidth=2 et
 au BufNewFile,BufRead *.h set nowrap tabstop=2 shiftwidth=2 et
 au BufNewFile,BufRead *.hpp set nowrap tabstop=2 shiftwidth=2 et
 au BufNewFile,BufRead *.xml set nowrap tabstop=4 shiftwidth=4 et
