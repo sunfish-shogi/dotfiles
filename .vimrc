@@ -29,6 +29,7 @@ au BufNewFile,BufRead *.plist set nowrap tabstop=4 shiftwidth=4 et
 au BufNewFile,BufRead *.java set nowrap tabstop=4 shiftwidth=4 et
 au BufNewFile,BufRead *.gyp set nowrap tabstop=2 shiftwidth=2 et
 au BufNewFile,BufRead *.py set nowrap tabstop=2 shiftwidth=2 et
+au BufNewFile,BufRead *.gradle set nowrap tabstop=4 shiftwidth=4 et
 
 " Vundle
 " git clone http://github.com/gmarik/vundle.git
@@ -51,7 +52,8 @@ let g:syntastic_check_on_open=0
 let g:syntastic_check_on_wq=0
 let g:syntastic_c_check_header = 1
 let g:syntastic_cpp_check_header = 1
-let g:syntastic_java_javac_classpath = "/usr/local/Cellar/android-sdk/24/platforms/android-17/android.jar"
+let g:syntastic_java_javac_config_file_enabled = 1
+let g:syntastic_java_javac_config_file = ".syntastic_java_config"
 
 " jslint
 let $JS_CMD='node'
