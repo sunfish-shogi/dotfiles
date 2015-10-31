@@ -4,7 +4,7 @@
 :set showmatch
 :set wildmenu
 :set encoding=utf-8
-:set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
+:set fileencodings=utf-8,iso-2022-jp,euc-jp,sjis
 :set hlsearch
 :set viminfo-=h
 :set tabstop=4
