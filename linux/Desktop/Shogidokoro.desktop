@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=将棋所
+Exec=mono /home/kubo/shogi/Shogidokoro/Shogidokoro.exe
+Type=Application
+StartupNotify=true
+Icon=/home/kubo/shogi/Shogidokoro/shogidokoro.ico
