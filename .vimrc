@@ -46,9 +46,13 @@ Bundle 'The-NERD-Commenter'
 Bundle 'Syntastic'
 Bundle 'basyura/jslint.vim'
 Bundle "wookiehangover/jshint.vim"
+Plugin 'dgryski/vim-godef'
 Plugin 'vim-jp/vim-go-extra'
-Plugin 'fatih/vim-go'
+Plugin 'google/vim-ft-go'
 filetype plugin indent on
+
+" gocode
+set rtp^=$GOPATH/src/github.com/nsf/gocode/vim
 
 " Syntastic
 let g:syntastic_check_on_open=0
