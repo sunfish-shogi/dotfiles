@@ -33,6 +33,7 @@ au BufNewFile,BufRead *.gradle set nowrap tabstop=4 shiftwidth=4 et
 au BufNewFile,BufRead *.txt set nowrap tabstop=4 shiftwidth=4
 au BufNewFile,BufRead *.cmake set nowrap tabstop=4 shiftwidth=4 et
 au BufNewFile,BufRead *.go set nowrap tabstop=2 shiftwidth=2
+au BufNewFile,BufRead *.yml set nowrap tabstop=2 shiftwidth=2 et
 
 " Vundle
 " git clone http://github.com/gmarik/vundle.git
@@ -51,8 +52,9 @@ Plugin 'vim-jp/vim-go-extra'
 Plugin 'google/vim-ft-go'
 filetype plugin indent on
 
-" gocode
+" golang
 set rtp^=$GOPATH/src/github.com/nsf/gocode/vim
+autocmd FileType go autocmd BufWritePre <buffer> Fmt
 
 " Syntastic
 let g:syntastic_check_on_open=0
