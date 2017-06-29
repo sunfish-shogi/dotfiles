@@ -75,9 +75,6 @@ let $JS_CMD='node'
 " jshint
 let JSHintUpdateWriteOnly=1
 
-" vim-go-extra
-autocmd FileType go autocmd BufWritePre <buffer> Fmt
-
 " http://qiita.com/wadako111/items/755e753677dd72d8036dより
 " Anywhere SID.
 function! s:SID_PREFIX()
