@@ -10,6 +10,8 @@
 :set tabstop=4
 :syntax on
 
+set runtimepath+=~/.vim/bundle/Vundle.vim
+
 let g:netrw_liststyle=3
 let g:netrw_list_hide = 'CVS,\(^\|\s\s\)\zs\.\S\+'
 let g:netrw_altv = 1
