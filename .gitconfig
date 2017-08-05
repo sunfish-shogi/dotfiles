@@ -1,0 +1,6 @@
+[user]
+	name = Kubo Ryosuke
+	email = 
+[core]
+	excludesfile = 
+	editor = vim -c \"set fenc=utf-8\"
