@@ -50,9 +50,13 @@ Plugin 'fatih/vim-go'
 call vundle#end()
 filetype plugin indent on
 
+" vim-go
+let g:go_list_autoclose = 0
+let g:go_fmt_autosave = 1
+let g:go_template_autocreate = 0
+
 " golang
 set rtp^=$GOPATH/src/github.com/nsf/gocode/vim
-autocmd FileType go autocmd BufWritePre <buffer> Fmt
 
 " Syntastic
 let g:syntastic_check_on_open=0
