@@ -10,8 +10,6 @@
 :set tabstop=4
 :syntax on
 
-set runtimepath+=~/.vim/bundle/Vundle.vim
-
 let g:netrw_liststyle=3
 let g:netrw_list_hide = 'CVS,\(^\|\s\s\)\zs\.\S\+'
 let g:netrw_altv = 1
@@ -38,16 +36,18 @@ au BufNewFile,BufRead *.go set nowrap tabstop=2 shiftwidth=2
 au BufNewFile,BufRead *.yml set nowrap tabstop=2 shiftwidth=2 et
 
 " Vundle
-" git clone http://github.com/gmarik/vundle.git
+" git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 set nocompatible
 filetype off
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
 Bundle 'gmarik/vundle'
 Bundle 'The-NERD-tree'
 Bundle 'The-NERD-Commenter'
 Bundle 'Syntastic'
 Plugin 'fatih/vim-go'
+call vundle#end()
 filetype plugin indent on
 
 " golang
