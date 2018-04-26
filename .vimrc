@@ -55,9 +55,6 @@ let g:go_list_autoclose = 0
 let g:go_fmt_autosave = 1
 let g:go_template_autocreate = 0
 
-" golang
-set rtp^=$GOPATH/src/github.com/nsf/gocode/vim
-
 " Syntastic
 let g:syntastic_check_on_open=0
 let g:syntastic_check_on_wq=0
