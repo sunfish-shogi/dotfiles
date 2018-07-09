@@ -107,3 +107,8 @@ export GOPATH=$HOME/golang
 export PATH=$PATH:$GOPATH/bin
 
 umask 022
+
+export LANG='en_US.UTF-8'
+export LC_ALL="${LANG}"
+
+export PATH="/usr/lib/go-1.10/bin:$PATH"

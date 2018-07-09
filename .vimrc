@@ -62,3 +62,7 @@ let g:syntastic_c_check_header = 1
 let g:syntastic_cpp_check_header = 1
 let g:syntastic_java_javac_config_file_enabled = 1
 let g:syntastic_java_javac_config_file = ".syntastic_java_config"
+
+" NERD
+let g:NERDTreeDirArrowExpandable = '>'
+let g:NERDTreeDirArrowCollapsible = 'v'
