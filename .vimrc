@@ -1,14 +1,14 @@
-:set nu
-:set ai
-:set backspace=indent,eol,start
-:set showmatch
-:set wildmenu
-:set encoding=utf-8
-:set fileencodings=utf-8,iso-2022-jp,euc-jp,sjis
-:set hlsearch
-:set viminfo-=h
-:set tabstop=4
-:syntax on
+set nu
+set ai
+set backspace=indent,eol,start
+set showmatch
+set wildmenu
+set encoding=utf-8
+set fileencodings=utf-8,iso-2022-jp,euc-jp,sjis
+set hlsearch
+set viminfo-=h
+set tabstop=4
+syntax on
 
 let g:netrw_liststyle=3
 let g:netrw_list_hide = 'CVS,\(^\|\s\s\)\zs\.\S\+'
