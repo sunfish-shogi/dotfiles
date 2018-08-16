@@ -4,7 +4,7 @@ set backspace=indent,eol,start
 set showmatch
 set wildmenu
 set encoding=utf-8
-set fileencodings=utf-8,iso-2022-jp,euc-jp,sjis
+set fileencodings=utf-8,utf-16le,utf-16be,iso-2022-jp,euc-jp,sjis
 set hlsearch
 set viminfo-=h
 set tabstop=4
