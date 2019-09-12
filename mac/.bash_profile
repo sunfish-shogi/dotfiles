@@ -9,7 +9,7 @@ alias la="ls -laFG"
 
 # golang
 function reset-gopath {
-	export GOPATH=$HOME/golang
+	export GOPATH=$HOME/go
 }
 function gvm-use {
 	gvm use $1
