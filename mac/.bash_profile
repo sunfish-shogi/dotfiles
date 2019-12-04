@@ -25,3 +25,4 @@ alias vim=/usr/local/bin/vim
 
 # gcloud SDK
 alias kubectl-current="kubectl config current-context"
+alias kubectl-image="kubectl get pods -o 'custom-columns=NAME:metadata.name,IMAGE-ID:status.containerStatuses[0].imageID'"
