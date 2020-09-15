@@ -12,6 +12,9 @@ alias cp='cp -i'
 alias mv='mv -i'
 alias eng='LANG=C LANGUAGE=C LC_ALL=C'
 
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+
 ## Ubuntu on Windows Subsystem
 #umask 022
 #export LANG='en_US.UTF8'
