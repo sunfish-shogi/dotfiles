@@ -1,3 +1,7 @@
+" see https://github.com/vim-jp/issues/issues/578
+set t_u7=
+set t_RV=
+
 set nu
 set ai
 set backspace=indent,eol,start
