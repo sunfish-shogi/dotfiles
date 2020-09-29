@@ -3,6 +3,6 @@
 	editor = vim -c \"set fenc=utf-8\"
 [user]
 	name = Kubo Ryosuke
-	email = 
+	email = sunfish-shogi@users.noreply.github.com
 [url "git@github.com:"]
 	insteadOf = https://github.com/
