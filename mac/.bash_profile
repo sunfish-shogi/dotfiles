@@ -18,6 +18,8 @@ function gvm-use {
 reset-gopath
 export PATH=$PATH:$GOPATH/bin
 
+go env -w GOPRIVATE=github.com/abema
+
 # homebrew
 alias vi=/usr/local/bin/vim
 alias vim=/usr/local/bin/vim
