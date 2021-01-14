@@ -51,6 +51,7 @@ Bundle 'The-NERD-tree'
 Bundle 'The-NERD-Commenter'
 Bundle 'Syntastic'
 Plugin 'fatih/vim-go'
+Plugin 'will133/vim-dirdiff'
 call vundle#end()
 filetype plugin indent on
 
