@@ -20,6 +20,10 @@ export PATH=$PATH:$GOPATH/bin
 
 go env -w GOPRIVATE=github.com/abema
 
+# prompt
+export PROMPT="%F{magenta}%~ %#%f "
+export PROMPT2="%F{magenta}>%f "
+
 # homebrew
 alias vi=/usr/local/bin/vim
 alias vim=/usr/local/bin/vim
