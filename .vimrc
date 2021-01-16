@@ -39,6 +39,9 @@ au BufNewFile,BufRead *.cmake set nowrap tabstop=4 shiftwidth=4 et
 au BufNewFile,BufRead *.go set nowrap tabstop=2 shiftwidth=2
 au BufNewFile,BufRead *.yml set nowrap tabstop=2 shiftwidth=2 et
 
+" vimgrep
+:set wildignore+=vendor/**
+
 " Vundle
 " git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 set nocompatible
