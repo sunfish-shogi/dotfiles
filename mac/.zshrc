@@ -5,6 +5,8 @@ alias ls="ls -FG"
 alias ll="ls -lFG"
 alias la="ls -laFG"
 
+bindkey \^U backward-kill-line
+
 #NOTICE: call gvm setup script from here
 
 # golang
@@ -28,6 +30,9 @@ export PROMPT2="%F{magenta}>%f "
 alias vi=/usr/local/bin/vim
 alias vim=/usr/local/bin/vim
 #export HOMEBREW_GITHUB_API_TOKEN
+
+# nodebrew
+export PATH=$HOME/.nodebrew/current/bin:$PATH
 
 # gcloud SDK
 alias kubectl-current="kubectl config current-context"
